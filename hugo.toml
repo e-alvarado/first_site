@@ -1,0 +1,69 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Edwin Alvarado'
+theme = 'hugo-developer-portfolio'
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+  # navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight=1
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight=2
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight=3
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight=4
+
+
+[params]
+home = "Home"
+# Meta data
+description = "The website of Edwin Alvarado, Recent Graduate from Master of Science in Data Science from the University of West Florida"
+author = "Edwin Alvarado"
+
+
+  [params.contact]
+  enable = false
+  formAction = "https://formspree.io/f/mleyedlz" #contact form works with formspree.io
+
+  [params.footer]
+  email = "ealvarado570@gmail.com"
+  address = "Pensacola, Florida"
+  googlemaps = ""
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4

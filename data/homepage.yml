@@ -1,0 +1,96 @@
+---
+banner:
+  title: Hi! I’m Edwin Alvarado
+social:
+  twitter: ""
+  linkedin: edwin-alvarado-839a51167
+  github: e-alvarado
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: ealvarado570
+about:
+  enable: true
+  content: Data Scientist | Data Analyst
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: R
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/2560px-R_logo.svg.png
+      description: Multiple research projects. Experience importing datasets through api, using tidyverse to clean/transform/present data
+    - title: Python
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png
+      description: Experience with numpy, pandas, scikit-learn
+    - title: SQL
+      logo: https://www.svgrepo.com/show/331760/sql-database-generic.svg
+      description:  Experience with SQL*Plus, comfortable with complex SELECT and JOIN commands
+    - title: Git
+      logo: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
+      description: Experience with multiple group project using shared repositories
+    - title: Stata
+      logo: https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_stata_icon_130148.png
+      description: Experience with regression, statistical tests of significance, and finding summary statistics
+    - title: Excel
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/2170px-Microsoft_Excel_2013-2019_logo.svg.png
+      description: Experience with pivot tables, visualizations, and complex formulas
+
+experience:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: init.g
+      company: Google
+      duration: November 2019
+hackathons:
+  enable: false
+  item:
+    - title: Hack Cambridge 2019
+      description: Climate change simulator
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+      url: none
+education:
+  enable: true
+  item:
+    - title: BA Mathematics-Economics
+      year: 2015-2019
+      academy: Reed College
+      image: https://www.reed.edu/public-affairs/assets/downloads/logos/reed-college-griffin-red.png
+    - title: MS Data Science
+      year: 2021-2023
+      academy: University of West Florida
+      image: https://marvel-b1-cdn.bc0a.com/f00000000279829/uwf.edu/media/brand-portal/graphics/Evolving-Nautilus.png
+certifications:
+  enable: true
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+leadership:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+  enable: true
+  item:
+    - title: Coming Soon
+      image: https://www.tennisnow.com/images/2020/December/WTALogo.aspx
+      description: An analysis of tennis data
+      link: "/portfolio/example1"
+      tools:
+        - python
+  filter:
+    - label: Web Dev
+      value: web-dev
+publications:
+  enable: true
+  item:
+    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_the_United_States_Forest_Service.svg/1200px-Logo_of_the_United_States_Forest_Service.svg.png
+      title: An Alternative Post-Stratification Scheme To Decrease Variance Of Forest Attribute Estimates In The Interior West
+      description: Technical paper, published with USDA, analyzing geo-spatial data from the Interior-West of the US to suggest a better stratification scheme to improve efficiency of forest attribute estimates
+      pdf_link: https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs256.pdf
