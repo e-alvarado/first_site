@@ -65,9 +65,9 @@ education:
 certifications:
   enable: true
   item:
-    - title: Microsoft Azure Fundamentals
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
-      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+    - title: Foundations for Big Data Analysis with SQL
+      image: https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png
+      url: https://coursera.org/share/4239037bdb4a5c544cd56f0d826428d2
 leadership:
   enable: false
   item:
