@@ -6,8 +6,6 @@ author: "Sam Robbins"
 type: "post"
 ---
 
-This will be updated soon
-
 ### Why Hugo?
 
-Flexible and fast
+Hugo is a flexible static site generator that has quick build times, and is easy to deploy. Hugo has an active community that posts themes and templates for users to build from. [https://www.example.com](https://www.example.com)  
