@@ -16,7 +16,4 @@ I plan to use this website to showcase my current and previous research projects
 
 ### Some Quick Hugo Website Resources
 
-[test][def]
-
-
-[def]: www.google.com
+[test](www.google.com)
